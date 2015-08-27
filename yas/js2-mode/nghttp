@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: nghttp
+# contributor: alex strzelewicz
+# key: nghttp
+# --
+$http({ 
+  method : '$1',
+  url : '$2'
+}).success(function(dt) {
+  $3
+}).error(function(err, status) {
+  $4
+});

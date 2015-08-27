@@ -1,0 +1,24 @@
+# -*- mode: snippet -*-
+# name: ngmod
+# contributor: alex strzelewicz
+# key: ngmodule
+# --
+/* global angular */
+
+/**
+ * @doc module
+ * @id $1
+ * @description $1
+ *
+ * @author Alexandre Strzelewicz <as@unitech.io>
+ */
+
+var ${1:moduleName} = angular.module('$1', []);
+
+$1.constant('version', '0.1');
+
+$1.config(function() { 
+});
+
+$1.run(function() { 
+});

@@ -1,0 +1,16 @@
+# -*- mode: snippet -*-
+# name: ngmodule
+# contributor: alex strzelewicz
+# key: ngmodule
+# --
+/* global angular */
+
+/**
+ * @doc module
+ * @id $1
+ * @description $1
+ *
+ * @author Alexandre Strzelewicz <as@unitech.io>
+ */
+
+var ${1:moduleName} = angular.module('$1', []);

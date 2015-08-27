@@ -1,0 +1,45 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/shant/keymetrics/axm/test/" . "fixtures/")
+ ("/home/shant/keymetrics/axm/" . "lib/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/shant/keymetrics/axm/lib/"
+ "/home/shant/keymetrics/axm/test/fixtures/"
+ "/home/shant/keymetrics/axm/test/"
+ "~/"
+ "~/Desktop"
+ "~/Documents"
+ "~src"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "options.js"
+ "notify_catch_all.mock.js"
+ "notify.js"
+ "event.mock.js"
+ "transaction.mocha.js"
+ "event.mocha.js"
+ "notify.mocha.js"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/shant/keymetrics/axm/lib/" (21596 51255 286205 614000) "../" "transaction.js" "options.js" "utils/" "wrapper/" "monitor.js" "./" "index.js" "actions.js" "notify.js" "events.js" "common.js")
+
+ ("/home/shant/keymetrics/axm/test/" (21596 51010 486209 998000) "../" "fixtures/" "monitor.mocha.js" "transaction/" "mocha.opts" ".#notify.mocha.js" "./" "axm.mocha.js" "proc.mock.js" "notify.mocha.js" "event.mocha.js" "express/" "#notify.mocha.js#" "event.mock.js" "transaction.mocha.js")
+
+ ("/home/shant/keymetrics/axm/" (21596 50893 950212 85000) "node_modules/" "../" ".git/" "README.md" "package.json" ".travis.yml" "test/" ".gitignore" "./" "index.js" "npm-debug.log" "lib/")
+
+ ("/home/shant/keymetrics/axm/test/fixtures/" (21578 22911 983053 619000) "monitor.mock.js" "../" "notify_catch_all.mock.js" "notify.mock.js" "./")
+
+ ("/home/shant/keymetrics/" (21592 59549 931906 777000) "vizionar/" "vizionar-fixtures/" "test.py" "km-agent/" "node_modules/" "nginx/" "../" "node-books/" "domain.js" "toto" "tst.js" "backend/" "#t#" "db-profiler/" "front/" "freelance-work/" "ecosystem.json" "pm2-axon-rpc/" "term.js/" "date_test.js" "pm2-lab/" "tmp/" "app-playground/" "pm2-axon/" ".#t" "website/" "pm2-rpc-fallback/" "Linux" "lrhr/" "getkeymetrics.com/" "pm2-interface/" "./" "probeRD/" "web-bckp/" "pm2-test/" "pm2-logs/" "index.js" "server.js" "axm/" "pm2/" "angular-bridge/" "RD/" "ikst/" "TODO-pm2.md" "pm2DAMN/" "ActionMethods.js" "twitter-bot/" "devops/" "pm2-deploy/" "socketio-pinger/" "pm2-ping/" "npm-debug.log" "ikm/" "async-profile/")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
