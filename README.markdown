@@ -3,8 +3,7 @@ Emacs plugin pack
 
 ## Install
 
-    git clone https://github.com/Alexandre-Strzelewicz/.emacs.d.git ~/.emacs.d
-    ln -s ~/emacs.d/.emacs.el ~
+    git clone https://github.com/jshkurti/.emacs.d.git ~/.emacs.d
 
 ## Plugins
 
